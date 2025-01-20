@@ -48,6 +48,7 @@ app.get("/:categoria/:id", async (req, res)=> {
          retorno =`
         <html>
             <body>
+                <title> Star wars Wiki</title>
                 <h1>Nome:${data.name}</h1>
                 <p>Altura:${data.height}</p>
                 <p>Peso:${data.mass}</p>
